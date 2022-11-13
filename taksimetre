@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       //değişkenlerimizi oluşrturalım
+
+        int kM,kM_başı_ucret,açılış_ucreti,min_odenecek_tutar,odenecek_tutar;
+        kM_başı_ucret=2;
+        açılış_ucreti=8;
+
+
+
+
+
+        //kullanıcıdan verileri alalım
+        Scanner b =new Scanner(System.in);
+        System.out.println("Yapılan Yol: ");
+        kM=b.nextInt();
+        odenecek_tutar=(kM*kM_başı_ucret+açılış_ucreti);
+        System.out.println("Ödenecek Tutar: ");
+        System.out.println(odenecek_tutar);
+
+
+
+
+
+
+
+    }
+
+
+}
